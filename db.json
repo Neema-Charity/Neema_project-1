@@ -1,0 +1,138 @@
+ {
+  "Restaurants" : [
+    {
+      "id": "1",
+      "name": "Coffee and Bagels",
+      "location": "Lenana Road Nairobi.",
+      "aesthetic": "Coffee Shop",
+      "Sunrise/Sunset time": "6am/6pm",
+      "Shooting environment": "Indoor",
+      "Parking availability": "Affordable",
+      "Activity levels": "Busy during weekends",
+      "Restriction on access": "False",
+      "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Peppertree",
+      "location": "Delta Towers, 2nd floor Waiyaki Way, Nairobi.",
+      "aesthetic": "Modern Restaurant",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Indoor,",
+      "Parking availability": "Yes",
+      "Activity levels": "Busy during Happy Hour from 3pm",
+      "Restriction on access": "False",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1a/ae/a8/78/dinners-at-peppertree.jpg "
+    }, {
+      "id": 3,
+      "name": "Mama Nilishe",
+      "location": "66 Ring Road Kilimani, Nairobi.",
+      "aesthetic": "Swahili Restaurant",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Indoor + Outdoor",
+      "Parking availability": "Yes",
+      "Activity levels": "Fridays",
+      "Restriction on access": "False",
+      "image": "https://mlkd9kfd8qtj.i.optimole.com/w:720/h:519/q:mauto/f:best/https://ziara.co.ke/wp-content/uploads/2023/03/mama-nilishe-restaurant.jpeg"
+    },{
+      "id": 4,
+      "name": "Four points by Sheraton",
+      "location": "Airwings Kodhek Road, Nairobi.",
+      "aesthetic": "Hotel",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Full package",
+      "Parking availability": "Yes",
+      "Activity levels": "Medium",
+      "Restriction on access": "Must be a guest",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/467567802.jpg?k=be649a2a44c730dbea413e05488f050c1c6ac9ae2b3cc072da7641cf92875b87&o=&hp=1"
+    }, {
+      "id": 5,
+      "name": "Mode Cafe",
+      "location": "Almas Towers, 12891 Kirichwa Rd, Nairobi.",
+      "aesthetic": "Modern Restaurant",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Indoor",
+      "Parking availability": "Yes",
+      "Activity levels": "Busy during weekends",
+      "Restriction on access": "False",
+      "image": "https://dinesurf.s3.eu-central-1.amazonaws.com/vendor_images/uqHE3bnRiAIMG1CuV8bOERxoIJZh8GL5O5t6UO6h.jpg"
+    }, {
+      "id": 6,
+      "name": "Canopy",
+      "location": "Ushuru Sacco Centre, Wood Avenue, Kilimani, Nairobi.",
+      "aesthetic": "Modern Restaurant",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Indoor + Outdoor",
+      "Parking availability": "Yes",
+      "Activity levels": "Busy during weekends",
+      "Restriction on access": "False",
+      "image": "https://www.capitalfm.co.ke/lifestyle/files/2023/02/Canopy-6.jpg"
+    }, {
+      "id": 7,
+      "name": "Kez Organics Tasting Room",
+      "location": "PQ6P+G8J, Nairobi.",
+      "aesthetic": "Cafe",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Outdoor",
+      "Parking availability": "Yes",
+      "Activity levels": "Busy during Happy Hour from 3pm",
+      "Restriction on access": "Should be 25+ years old ",
+      "image": "https://pbs.twimg.com/media/EH9qSFrW4AEcLEC.jpg"
+    }, {
+      "id": 8,
+      "name": "Hidden Gem",
+      "location": "Lavington Mall, next to Chandarana Foodplus, Nairobi.",
+      "aesthetic": "Coffee + Wine bar + Italian Restaurant",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Outdoor",
+      "Parking availability": "Yes",
+      "Activity levels": "Busy during weekends, especially in the evening",
+      "Restriction on access": "False",
+      "image": "https://pbs.twimg.com/media/E0xTA41XoAEBV3O?format=jpg&name=4096x4096"
+    }, {
+      "id": 9,
+      "name": "Froth Cofee Shop",
+      "location": "Muthangari Road, Nairobi.",
+      "aesthetic": "Coffee Shop",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Indoor",
+      "Parking availability": "Yes",
+      "Activity levels": "Busy at meal times",
+      "Restriction on access": "False",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTd3w-aNYl3AseEnw-2l8R8G61Jceu-x516RM7SvpD0Q&s"
+    }, {
+      "id": 10,
+      "name": "Izzi brunch & cake",
+      "location": "2F, LANA PLAZA, Oloitoktok Rd, Nairobi.",
+      "aesthetic": "Cafe",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Indoor",
+      "Parking availability": "Yes",
+      "Activity levels": "Busy during weekends, especially in the morning",
+      "Restriction on access": "False",
+      "image": "https://eatout.co.ke/storage/2023/08/IZZI.jpeg"
+    }, {
+      "id": 11,
+      "name": "Matteo's at the stables",
+      "location": "Ngong Road, Nairobi.",
+      "aesthetic": "Italian Restaurant",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Indoor + Outdoor",
+      "Parking availability": "Yes",
+      "Activity levels": "Busy during weekends",
+      "Restriction on access": "Must have a reservation",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/2a/3a/2a/a2/indulge-in-the-perfect.jpg"
+    }, {
+      "id": 12,
+      "name": "The Daily Cafe & Bistro",
+      "location": "Airwings Kodhek Road, Nairobi.",
+      "aesthetic": "Cafe",
+      "Sunrise/Sunset time": "6:30am/5:30pm",
+      "Shooting environment": "Indoor",
+      "Parking availability": "Yes",
+      "Activity levels": "Busy during weekends",
+      "Restriction on access": "False",
+      "image": "https://fastly.4sqi.net/img/general/600x600/7552754_xHRvth1KSbJ9gY4u1njjxQp6fUqlgEI1KU8IRzhRufQ.jpg"
+    }
+  ]
+ } 
