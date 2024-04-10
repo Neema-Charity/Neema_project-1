@@ -14,19 +14,22 @@
         <p>Perfect photoshoot locator</p>
     </header>
     <div>
-        <form action="#">
-            <select name="Aesthetic" id="">Aesthetic</select>
-            <option value="restaurant">Restaurant</option>
-        </form>
+        <label for="cars">Choose desired aesthetic:</label>
+        <select id="aeshetic-choose" name="aesthetic">
+            <option value="restaurant">Restaurants</option>
+            <option value="art-galleries">Art Galleries</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
     </div>
     <!-- <div class="card-container"> -->
-    <div id="restaurantList" class="card"></div>
+    <li id="restaurantList" class="card"></li>
     </div>
     <div>
         <form action="" id="location-form">
             <div>
                 <div>
-                    <label for="location-creator" style="border: 0.2px;" >CREATE A NEW LOCATION!</label>
+                    <label for="location-creator" style="border: 0.2px;">CREATE A NEW LOCATION!</label>
                 </div>
                 <div>
                     <label for="">Name</label>

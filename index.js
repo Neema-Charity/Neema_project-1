@@ -24,8 +24,10 @@ function renderOneRestaurant(restaurant) {
         <h4>${restaurant.location}</h4>
         </div>
     `;
-    document.getElementById('restaurantList').appendChild(card);
+    document.querySelector('body').appendChild(card);
 } 
+
+
 
 
 

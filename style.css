@@ -1,11 +1,12 @@
  .card {
-    width: 500px;
+    width: 400px;
     border: 1px solid #ccc;
     overflow: hidden;
     margin: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex; 
     flex-wrap: wrap; 
+    position: relative;
   }
   
   .card img {
