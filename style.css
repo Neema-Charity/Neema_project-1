@@ -35,7 +35,9 @@
 }
 
 input {
-    margin-right: 0%;
+    position: absolute;
+    right: 25%;
+    margin-bottom: 20px;
 }
 
 .restaurants-container {
@@ -49,4 +51,22 @@ input {
     display: flex; /* Use Flexbox */
     flex-wrap: wrap; /* Allow wrapping of cards to the next row */
     justify-content: flex-start; /* Align cards to the start of the container */
+}
+
+#location-adder {
+    background-color: greenyellow;
+}
+
+button.top-button{
+    position: absolute;
+    right: 0;
+   
+}
+
+.container{
+    display: flex;
+}
+
+div.form {
+    margin: 8px;
 }

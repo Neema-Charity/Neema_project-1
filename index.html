@@ -13,66 +13,79 @@
         <h1>SNAP SHOT</h1>
         <p>Perfect photoshoot locator</p>
     </header>
-    <div>
-        <label for="aesthetic-choose">Choose desired aesthetic:</label>
-        <select id="aesthetic-choose" name="aesthetic">
-            <option value="restaurant" class="choose-restaurant">Restaurants</option>
-            <option value="art-galleries" id="choose-gallery">Art Galleries</option>
-        </select>
+    <div class="container">
+        <div>
+            <label for="aesthetic-choose">Choose desired aesthetic:</label>
+            <select id="aesthetic-choose" name="aesthetic">
+                <option value="restaurant" class="choose-restaurant">Restaurants</option>
+                <option value="art-galleries" id="choose-gallery">Art Galleries</option>
+            </select>
+        </div>
+        <div>
+            <button id="location-adder" class="top-button">Add a new location</button>
+        </div>
     </div>
     <div class="restaurants-container">
         <!-- Restaurant cards will be appended here -->
     </div>
+    <div>
+        <button id="location-adder">Add a new location</button>
+    </div>
     <div class="galleries-container">
         <!-- Gallery cards will be appended here -->
     </div>
-    
+    <div>
+        <button id="location-adder">Add a new location</button>
+    </div>
+
     <div>
         <form action="" id="location-form">
 
-            <div>
+            <div class="form">
                 <label for="location-creator" style="border: 0.2px;">CREATE A NEW LOCATION!</label>
             </div>
-            <div>
+            <div class="form">
                 <label for="">Name</label>
                 <input type="text">
             </div>
-            <div>
-                <label for="aesthetic">Type of aesthetic</label>
-                <input type="text">
-            </div>
-            <div>
+            <div class="form">
                 <label for="location">Location</label>
                 <input type="text">
             </div>
-            <div>
+            <div class="form">
+                <label for="aesthetic">Type of aesthetic</label>
+                <input type="text">
+            </div>
+            <div class="form">
                 <label for="sunset-sunrise">Sunset/Sunrise time</label>
                 <input type="text">
             </div>
-            <div>
-                <label for="environment">Shooting Environment</label>
+            <div class="form">
+                <label for="envt">Shooting Environment</label>
                 <input type="text">
             </div>
-            <div>
+            <div class="form">
                 <label for="parking">Parking Availability</label>
                 <input type="text">
             </div>
-            <div>
+            <div class="form">
                 <label for="activity">Activity Levels</label>
                 <input type="text">
             </div>
-            <div>
+            <div class="form">
                 <label for="">Restriction on access</label>
                 <input type="text">
             </div>
-            <div>
+            <div class="form">
                 <label for="image">Image</label>
                 <input type="url">
             </div>
+            <input type="submit" style="background-color: rgb(43, 58, 226);" value="Submit">
+
         </form>
     </div>
     <!-- <div id="restaurantList" class="card"></div> -->
-    
+
     <script src="./index.js"></script>
 </body>
 
