@@ -2,8 +2,8 @@
 async function initialize() {
     try {
         const [restaurantsResponse, galleriesResponse] = await Promise.all([
-            fetch('http://localhost:4000/Restaurants'),
-            fetch('http://localhost:4000/Galleries')
+            fetch('http://localhost:3000/Restaurants'),
+            fetch('http://localhost:3000/Galleries')
         ]);
         const restaurantsData = await restaurantsResponse.json();
         const galleriesData = await galleriesResponse.json();
@@ -31,19 +31,44 @@ function renderItems(items, containerSelector) {
             </div>
         `;
         container.appendChild(card);
+
+        // Add a flag to track whether buttons are added
+        let buttonsAdded = false;
+
+        card.addEventListener('mouseover', () => {
+            // Check if buttons are already added
+            if (!buttonsAdded) {
+                card.innerHTML += `
+                    <div>
+                        <button class="card" id="save">Save</button>
+                    </div>
+                    <div>
+                        <button class="card" id="edit">Edit</button>
+                    </div>
+                    <div>
+                    <button class="card" id="photo">Add Photo</button>
+                </div>
+                `;
+                // Set buttonsAdded flag to true
+                buttonsAdded = true;
+            }
+        });
     });
 }
+
+
+
 
 document.getElementById('aesthetic-choose').addEventListener('change', async function() {
     const selectedOption = this.value;
     const galleriesContainer = document.querySelector('.galleries-container');
     const restaurantsContainer = document.querySelector('.restaurants-container');
     if (selectedOption === 'restaurant'){
-        const restaurantsResponse = await fetch('http://localhost:4000/Restaurants');
+        const restaurantsResponse = await fetch('http://localhost:3000/Restaurants');
         const restaurantsData = await restaurantsResponse.json();
         renderItems(restaurantsData, '.restaurants-container');
     } else if (selectedOption === 'art-galleries') {
-        const galleriesResponse = await fetch('http://localhost:4000/Galleries');
+        const galleriesResponse = await fetch('http://localhost:3000/Galleries');
         const galleriesData = await galleriesResponse.json();
         renderItems(galleriesData, '.galleries-container');
         
@@ -76,10 +101,8 @@ document.getElementById('location-form').addEventListener('submit', async functi
     const newImage = document.getElementById('image').value;
     
     // Construct the endpoint URL based on the selected aesthetic
-    const endpoint = newAesthetic === 'restaurant' ? 'http://localhost:4000/Restaurants' : 'http://localhost:4000/Galleries';
+    const endpoint = newAesthetic === 'restaurants' ? 'http://localhost:3000/Galleries' : 'http://localhost:3000/Restaurants';
 
-    try {
-        // Make a POST request to the appropriate endpoint
         const response = await fetch(endpoint, {
             method: 'POST',
             headers: {
@@ -98,12 +121,4 @@ document.getElementById('location-form').addEventListener('submit', async functi
             })
         });
 
-        if (response.ok) {
-            console.log('Data successfully added to the server.');
-        } else {
-            console.error('Failed to add data to the server.');
-        }
-    } catch (error) {
-        console.error('Error occurred while adding data:', error);
-    }
 });

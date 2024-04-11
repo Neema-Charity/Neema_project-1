@@ -70,3 +70,11 @@ button.top-button{
 div.form {
     margin: 8px;
 }
+
+button.card{
+    font-size: 12px; /* Adjust the font size as needed */
+  padding: 8px 12px;
+  margin-left: 0px;
+  margin-top: auto;
+  background-color: rgb(222, 205, 186);
+}
