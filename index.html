@@ -14,11 +14,17 @@
         <p>Perfect photoshoot locator</p>
     </header>
     <div>
-        <label for="cars">Choose desired aesthetic:</label>
-        <select id="aeshetic-choose" name="aesthetic">
+        <label for="aesthetic-choose">Choose desired aesthetic:</label>
+        <select id="aesthetic-choose" name="aesthetic">
             <option value="restaurant" class="choose-restaurant">Restaurants</option>
             <option value="art-galleries" id="choose-gallery">Art Galleries</option>
         </select>
+    </div>
+    <div class="restaurants-container">
+        <!-- Restaurant cards will be appended here -->
+    </div>
+    <div class="galleries-container">
+        <!-- Gallery cards will be appended here -->
     </div>
     
     <div>
@@ -66,8 +72,7 @@
         </form>
     </div>
     <!-- <div id="restaurantList" class="card"></div> -->
-    <div class="restaurants-container"></div>
-    <div class="galleries-container"></div>
+    
     <script src="./index.js"></script>
 </body>
 
