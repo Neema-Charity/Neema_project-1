@@ -1,15 +1,15 @@
 .card {
-    width: 500px; /* Calculate width for three cards with margin */
+    width: 250px; /* Calculate width for three cards with margin */
     border: 1px solid #ccc;
     overflow: hidden;
-    margin: 50px; /* Adjust margin for spacing between cards */
+    margin: 10px; /* Adjust margin for spacing between cards */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: inline-block; /* Display as inline-block to place cards side by side */
     vertical-align: top; /* Align cards to the top */
 }
 
 .card img {
-    width: 450px; /* Make the image fill the entire width of the card */
+    width: 250px; /* Make the image fill the entire width of the card */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -38,3 +38,15 @@ input {
     margin-right: 0%;
 }
 
+.restaurants-container {
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow wrapping of cards to the next row */
+    justify-content: flex-start; /* Align cards to the start of the container */
+}
+
+/* For stacking gallery cards horizontally */
+.galleries-container {
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow wrapping of cards to the next row */
+    justify-content: flex-start; /* Align cards to the start of the container */
+}
