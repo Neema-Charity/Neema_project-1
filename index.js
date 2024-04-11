@@ -1,12 +1,3 @@
-fetch('http://localhost:3000/Restaurants')
-    .then(response => response.json())
-    .then(data => {
-        // Once the data is fetched, call the initialize function
-        initialize(data);
-    })
-    .catch(error => {
-        console.error('Fetch error:', error);
-    });
 
 function initialize(restaurantsData) {
     // Assuming `restaurantsData` is an array of objects containing restaurant data
@@ -27,7 +18,29 @@ function renderOneRestaurant(restaurant) {
     document.querySelector('body').appendChild(card);
 } 
 
+//  document.querySelector('#choose-restaurant').addEventListener('click', function(e) {
+    fetch('http://localhost:3000/Restaurants')
+    .then(response => response.json())
+    .then(data => {
+        // Once the data is fetched, call the initialize function
+        initialize(data);
+    })
+    .catch(error => {
+        console.error('Fetch error:', error);
+    });
+//  });
 
+
+//  document.querySelector('select').addEventListener('hover', function() {
+    fetch('http://localhost:3000/Galleries')
+    .then(response => response.json())
+    .then(data => {
+        // Once the data is fetched, call the initialize function
+        initialize(data);
+    })
+    .catch(error => {
+        console.error('Fetch error:', error);
+    });
 
 
 

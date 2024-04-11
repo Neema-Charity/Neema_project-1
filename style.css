@@ -34,5 +34,7 @@
     padding:  50px; /* Add padding to create equal space on left and right */
 }
 
-
+input {
+    margin-right: 0%;
+}
 

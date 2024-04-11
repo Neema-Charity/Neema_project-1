@@ -138,14 +138,14 @@
   "Galleries": [ {
     "id": "1",
     "name": "African Heritage House Museum",
-    "location": "Lenana Road Nairobi.",
+    "location": "Mombasa Road, Athi River.",
     "aesthetic": "Architectural Buildings",
     "Sunrise/Sunset time": "6am/6pm",
     "Shooting environment": "Indoor",
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeEffqgx7LOOUKgruHsk8832PM2ALyaXWgsw&s"
   },  {
     "id": "2",
     "name": "Banana Hill Art Gallery",
@@ -156,7 +156,7 @@
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://uzamart.com/wp-content/uploads/2022/12/bananahillartgallery_hlen-20200611_151159-103192728_3273450362880577_1706354256668193301_n-580x408.jpeg"
   },{
     "id": "3",
     "name": "Upepo Photography Gallery",
@@ -167,7 +167,7 @@
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/1a/4e/e3/upepo-photography-gallery.jpg?w=1200&h=1200&s=1"
   },  {
     "id": "4",
     "name": "Circle Art Gallery",
@@ -178,7 +178,7 @@
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/83/84/8c/group-exhibition-various.jpg?w=1200&h=-1&s=1"
   },  {
     "id": "5",
     "name": "Nairobi Gallery",
@@ -189,7 +189,7 @@
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://i0.wp.com/www.safari254.com/wp-content/uploads/2014/10/The-Nairobi-Gallery_entrance.jpg"
   },  {
     "id": "6",
     "name": "Aqeeq Galleria",
@@ -200,7 +200,7 @@
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/d1/b9/ce/aqeeq-galleria.jpg"
   },  {
     "id": "7",
     "name": "Ardhi Gallery",
@@ -211,7 +211,7 @@
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://static.wixstatic.com/media/e22fc8_962161abb0b048c4a9fc0076228ab400~mv2.jpg/v1/fill/w_640,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e22fc8_962161abb0b048c4a9fc0076228ab400~mv2.jpg"
   },  {
     "id": "8",
     "name": "Red Hill Art Gallery",
@@ -222,7 +222,7 @@
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://media.theweekendedition.com.au/wp-content/uploads/2012/07/Red-Hill-Gallery.jpg"
   },  {
     "id": "9",
     "name": "Photizo Art Gallery",
@@ -233,7 +233,7 @@
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE1xFQPYk8zQfnPSmWtgshAlBAockgCeO2JphLVpgfUw&sg"
   },  {
     "id": "10",
     "name": "Benart Gallery",
@@ -244,7 +244,7 @@
     "Parking availability": "Affordable",
     "Activity levels": "Busy during weekends",
     "Restriction on access": "False",
-    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+    "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/f3/8e/55/art.jpg?w=1200&h=-1&s=1"
   }]
 
   
