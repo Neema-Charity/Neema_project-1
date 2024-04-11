@@ -134,5 +134,118 @@
       "Restriction on access": "False",
       "image": "https://fastly.4sqi.net/img/general/600x600/7552754_xHRvth1KSbJ9gY4u1njjxQp6fUqlgEI1KU8IRzhRufQ.jpg"
     }
-  ]
+  ],
+  "Galleries": [ {
+    "id": "1",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  },  {
+    "id": "2",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  },{
+    "id": "3",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  },  {
+    "id": "4",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  },  {
+    "id": "5",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  },  {
+    "id": "6",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  },  {
+    "id": "7",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  },  {
+    "id": "8",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  },  {
+    "id": "9",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  },  {
+    "id": "10",
+    "name": "Coffee and Bagels",
+    "location": "Lenana Road Nairobi.",
+    "aesthetic": "Coffee Shop",
+    "Sunrise/Sunset time": "6am/6pm",
+    "Shooting environment": "Indoor",
+    "Parking availability": "Affordable",
+    "Activity levels": "Busy during weekends",
+    "Restriction on access": "False",
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/18/05/ac/fb/ta-img-20190622-144215.jpg"
+  }]
+
+  
  } 
