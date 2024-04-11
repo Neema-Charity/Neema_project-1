@@ -67,13 +67,13 @@ document.getElementById('location-form').addEventListener('submit', function(eve
     // Get form values
     const newName = document.getElementById('name').value;
     const newLocation = document.getElementById('location').value;
-    const newAesthetic = document.getElementById('name').value;
-    const newTime = document.getElementById('name').value;
-    const newEnvt = document.getElementById('name').value;
-    const newParking = document.getElementById('name').value;
-    const newActivity = document.getElementById('name').value;
-    const newRestriction = document.getElementById('name').value;
-    const newImage = document.getElementById('name').value;
+    const newAesthetic = document.getElementById('aesthetic').value;
+    const newTime = document.getElementById('time').value;
+    const newEnvt = document.getElementById('environment').value;
+    const newParking = document.getElementById('parking').value;
+    const newActivity = document.getElementById('activity').value;
+    const newRestriction = document.getElementById('restriction').value;
+    const newImage = document.getElementById('image').value;
     
     // Create a new element to display form details
     const detailsElement = document.createElement('div');
