@@ -10,12 +10,12 @@
 
 <body>
     <header>
-        <h1>SNAP SHOT</h1>
-        <p>Perfect photoshoot locator</p>
+        <h1 id="header">SNAP SHOT</h1>
+        <p id="header">(Perfect photoshoot locator)</p>
     </header>
     <div class="container">
         <div>
-            <label for="aesthetic-choose">Choose desired aesthetic:</label>
+            <label for="aesthetic-choose"> Choose desired aesthetic:</label>
             <select id="aesthetic-choose" name="aesthetic">
                 <option value="restaurant" class="choose-restaurant">Restaurants</option>
                 <option value="art-galleries" id="choose-gallery">Art Galleries</option>
@@ -28,29 +28,25 @@
     <div class="restaurants-container">
         <!-- Restaurant cards will be appended here -->
     </div>
-    <div>
-        <button id="location-adder">Add a new location</button>
-    </div>
+   
     <div class="galleries-container">
         <!-- Gallery cards will be appended here -->
     </div>
-    <div>
-        <button id="location-adder">Add a new location</button>
-    </div>
+   
 
-    <div>
+    <div id="form">
         <form action="" id="location-form">
 
             <div class="form">
                 <label for="location-creator" style="border: 0.2px;">CREATE A NEW LOCATION!</label>
             </div>
-            <div>
-                <label for="aesthetic-choose">Choose desired aesthetic:</label>
+            <!-- <div>
+                <label for="aesthetic-choose"> Choose desired aesthetic:</label>
                 <select id="aesthetic-choose" name="aesthetic">
                     <option value="restaurant" class="choose-restaurant">Restaurants</option>
                     <option value="art-galleries" id="choose-gallery">Art Galleries</option>
                 </select>
-            </div>
+            </div>  -->
             <div class="form">
                 <label for="">Name</label>
                 <input type="text" id="name">
@@ -87,7 +83,7 @@
                 <label for="image">Image</label>
                 <input type="url" id="image">
             </div>
-            <input type="submit" style="background-color: rgb(43, 58, 226);" value="Submit">
+            <input type="submit" style="background-color: blueviolet" value="Submit">
 
         </form>
     </div>

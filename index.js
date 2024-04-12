@@ -47,7 +47,7 @@ function renderItems(items, containerSelector) {
                     </div>
                     <div>
                     <button class="card" id="photo">Add Photo</button>
-                </div>
+                    </div>
                 `;
                 // Set buttonsAdded flag to true
                 buttonsAdded = true;
@@ -59,11 +59,11 @@ function renderItems(items, containerSelector) {
 
 
 
-document.getElementById('aesthetic-choose').addEventListener('change', async function() {
+document.getElementById('aesthetic-choose').addEventListener('change', async function () {
     const selectedOption = this.value;
     const galleriesContainer = document.querySelector('.galleries-container');
     const restaurantsContainer = document.querySelector('.restaurants-container');
-    if (selectedOption === 'restaurant'){
+    if (selectedOption === 'restaurant') {
         const restaurantsResponse = await fetch('http://localhost:3000/Restaurants');
         const restaurantsData = await restaurantsResponse.json();
         renderItems(restaurantsData, '.restaurants-container');
@@ -71,11 +71,11 @@ document.getElementById('aesthetic-choose').addEventListener('change', async fun
         const galleriesResponse = await fetch('http://localhost:3000/Galleries');
         const galleriesData = await galleriesResponse.json();
         renderItems(galleriesData, '.galleries-container');
-        
+
         // Insert the galleries container before the restaurants container in the DOM
         restaurantsContainer.parentNode.insertBefore(galleriesContainer, restaurantsContainer);
     }
-}); 
+});
 initialize();
 
 document.querySelector('#location-adder').addEventListener('click', loadForm);
@@ -86,9 +86,9 @@ function loadForm() {
 }
 
 
-document.getElementById('location-form').addEventListener('submit', async function(event) {
+document.getElementById('location-form').addEventListener('submit', async function (event) {
     event.preventDefault(); // Prevent default form submission
-    
+
     // Get form values
     const newName = document.getElementById('name').value;
     const newLocation = document.getElementById('location').value;
@@ -99,26 +99,26 @@ document.getElementById('location-form').addEventListener('submit', async functi
     const newActivity = document.getElementById('activity').value;
     const newRestriction = document.getElementById('restriction').value;
     const newImage = document.getElementById('image').value;
-    
+
     // Construct the endpoint URL based on the selected aesthetic
     const endpoint = newAesthetic === 'restaurants' ? 'http://localhost:3000/Galleries' : 'http://localhost:3000/Restaurants';
 
-        const response = await fetch(endpoint, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                name: newName,
-                location: newLocation,
-                aesthetic: newAesthetic,
-                time: newTime,
-                environment: newEnvt,
-                parking: newParking,
-                activity: newActivity,
-                restriction: newRestriction,
-                image: newImage
-            })
-        });
+    const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            name: newName,
+            location: newLocation,
+            aesthetic: newAesthetic,
+            time: newTime,
+            environment: newEnvt,
+            parking: newParking,
+            activity: newActivity,
+            restriction: newRestriction,
+            image: newImage
+        })
+    });
 
 });

@@ -78,3 +78,20 @@ button.card{
   margin-top: auto;
   background-color: rgb(222, 205, 186);
 }
+
+h1#header{
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+p#header{
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+}
+
+div#form {
+   border-style: dashed;
+}
