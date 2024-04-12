@@ -52,6 +52,19 @@ function renderItems(items, containerSelector) {
                 // Set buttonsAdded flag to true
                 buttonsAdded = true;
             }
+           // Get all buttons with id 'save'
+var saveButtons = document.querySelectorAll('button#save');
+
+// Loop through each button and add the event listener
+saveButtons.forEach(function(button) {
+    button.addEventListener('dblclick', function(e) {
+        e.target.style.backgroundColor = 'green';
+        e.target.innerText = 'Saved!';
+    });
+});
+
+            
+
         });
     });
 }
@@ -122,3 +135,6 @@ document.getElementById('location-form').addEventListener('submit', async functi
     });
 
 });
+
+
+
