@@ -95,3 +95,11 @@ p#header{
 div#form {
    border-style: groove;
 }
+
+div.container{
+    display: flex;
+}
+
+input#search{
+width: 200px;
+}

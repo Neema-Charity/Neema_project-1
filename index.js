@@ -40,55 +40,60 @@ function renderItems(items, containerSelector) {
             if (!buttonsAdded) {
                 card.innerHTML += `
                     <div>
-                        <button class="card" id="save">Save</button>
+                        <button class="card" id="save">Double Click to save</button>
                     </div>
                     <div>
-                        <button class="card" id="edit">Edit</button>
+                        <button class="card" id="edit">Add Photo</button>
                     </div>
                     <div>
-                    <button class="card" id="photo">Add Photo</button>
+                    <button class="card" id="remove">Remove</button>
                     </div>
                 `;
                 // Set buttonsAdded flag to true
                 buttonsAdded = true;
             }
-           // Get all buttons with id 'save'
-var saveButtons = document.querySelectorAll('button#save');
+            // Get all buttons with id 'save'
+            var saveButtons = document.querySelectorAll('button#save');
 
-// Loop through each button and add the event listener
-saveButtons.forEach(function(button) {
-    button.addEventListener('dblclick', function(e) {
-        e.target.style.backgroundColor = 'green';
-        e.target.innerText = 'Saved!';
-    });
-});
+            // Loop through each button and add the event listener
+            saveButtons.forEach(function (button) {
+                button.addEventListener('dblclick', function (e) {
+                    e.target.style.backgroundColor = 'green';
+                    e.target.innerText = 'Saved!';
+                });
+            });
 
-            
+             // Get all buttons with id 'save'
+             var editButtons = document.querySelectorAll('button#edit');
+
+             // Loop through each button and add the event listener
+             editButtons.forEach(function (button) {
+                 button.addEventListener('dblclick', function () {
+                    card.createElement('input type="image"')
+                     card.appendChild.input.value
+                 });
+             });
+
+              // Get all buttons with id 'save'
+            var removeButtons = document.querySelectorAll('button#save');
+
+            // Loop through each button and add the event listener
+            saveButtons.forEach(function (button) {
+                button.addEventListener('dblclick', function (e) {
+                    e.target.style.backgroundColor = 'green';
+                    e.target.innerText = 'Saved!';
+                });
+            });
+
+ 
+
+
 
         });
     });
 }
 
 
-
-
-document.getElementById('aesthetic-choose').addEventListener('change', async function () {
-    const selectedOption = this.value;
-    const galleriesContainer = document.querySelector('.galleries-container');
-    const restaurantsContainer = document.querySelector('.restaurants-container');
-    if (selectedOption === 'restaurant') {
-        const restaurantsResponse = await fetch('http://localhost:3000/Restaurants');
-        const restaurantsData = await restaurantsResponse.json();
-        renderItems(restaurantsData, '.restaurants-container');
-    } else if (selectedOption === 'art-galleries') {
-        const galleriesResponse = await fetch('http://localhost:3000/Galleries');
-        const galleriesData = await galleriesResponse.json();
-        renderItems(galleriesData, '.galleries-container');
-
-        // Insert the galleries container before the restaurants container in the DOM
-        restaurantsContainer.parentNode.insertBefore(galleriesContainer, restaurantsContainer);
-    }
-});
 initialize();
 
 document.querySelector('#location-adder').addEventListener('click', loadForm);
