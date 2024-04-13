@@ -103,3 +103,11 @@ div.container{
 input#search{
 width: 200px;
 }
+
+button.card{
+    width: 100px;
+}
+
+button#comment{
+    width: 210px;
+}

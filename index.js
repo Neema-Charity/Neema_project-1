@@ -39,15 +39,25 @@ function renderItems(items, containerSelector) {
             // Check if buttons are already added
             if (!buttonsAdded) {
                 card.innerHTML += `
+                <div class="container">
                     <div>
                         <button class="card" id="save">Double Click to save</button>
                     </div>
                     <div>
-                        <button class="card" id="edit">Add Photo</button>
+                        <button class="card" id="photo">Add Photo</button>
+                    </div>
+                </div>
+                <div class="container">
+                    <div>
+                        <button class="card" id="edit">Edit</button>
                     </div>
                     <div>
-                    <button class="card" id="remove">Remove</button>
+                         <button class="card" id="remove">Remove</button>
                     </div>
+                </div>
+                <div>
+                    <button class="card" id="comment">Comment</button>
+                </div>
                 `;
                 // Set buttonsAdded flag to true
                 buttonsAdded = true;
@@ -63,18 +73,18 @@ function renderItems(items, containerSelector) {
                 });
             });
 
-             // Get all buttons with id 'save'
-             var editButtons = document.querySelectorAll('button#edit');
+            // Get all buttons with id 'save'
+            var editButtons = document.querySelectorAll('button#edit');
 
-             // Loop through each button and add the event listener
-             editButtons.forEach(function (button) {
-                 button.addEventListener('dblclick', function () {
+            // Loop through each button and add the event listener
+            editButtons.forEach(function (button) {
+                button.addEventListener('dblclick', function () {
                     card.createElement('input type="image"')
-                     card.appendChild.input.value
-                 });
-             });
+                    card.appendChild.input.value
+                });
+            });
 
-              // Get all buttons with id 'save'
+            // Get all buttons with id 'save'
             var removeButtons = document.querySelectorAll('button#save');
 
             // Loop through each button and add the event listener
@@ -85,7 +95,7 @@ function renderItems(items, containerSelector) {
                 });
             });
 
- 
+
 
 
 
@@ -140,6 +150,3 @@ document.getElementById('location-form').addEventListener('submit', async functi
     });
 
 });
-
-
-

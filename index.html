@@ -14,31 +14,27 @@
         <p id="header">(Perfect photoshoot locator)</p>
     </header>
     <div class="container">
-         <div>
+        <div>
             <label for="aesthetic-choose"> Type of user:</label>
-            <select id="aesthetic-choose" name="aesthetic">
-                <option value="restaurant" class="choose-restaurant">Photographer</option>
-                <option value="art-galleries" id="choose-gallery">Administrator</option>
+            <select id="aesthetic-choose" name="aesthetic" class="user">
+                <option value="Restaurants">Photographer</option>
+                <option value="Galleries">Administrator</option>
             </select>
         </div>
+    
         <div>
-            <div>
-                <input type="text" id="search" placeholder="Search (Restaurants/Galleries)">
-            </div>
-            <div>
-                <button id="location-adder" class="top-button">Add a new location</button>
-            </div>
-        </div> 
-        
+            <button id="location-adder" class="top-button">Add a new location</button>
+        </div>
     </div>
+    
     <div class="restaurants-container">
         <!-- Restaurant cards will be appended here -->
     </div>
-   
+
     <div class="galleries-container">
         <!-- Gallery cards will be appended here -->
     </div>
-   
+
 
     <div id="form">
         <form action="" id="location-form">
