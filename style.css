@@ -111,3 +111,7 @@ button.card{
 button#comment{
     width: 210px;
 }
+
+button.top-button{
+    margin-bottom: 50px;
+}
