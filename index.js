@@ -1,4 +1,3 @@
-
 async function initialize() {
     try {
         const [restaurantsResponse, galleriesResponse] = await Promise.all([
@@ -28,12 +27,14 @@ function renderItems(items, containerSelector) {
                 <h2>${item.name}</h2>
                 <h3>${item.aesthetic}</h3>
                 <h4>${item.location}</h4>
+                <p class="save-counter">Saves: 0</p>
             </div>
         `;
         container.appendChild(card);
 
         // Add a flag to track whether buttons are added
         let buttonsAdded = false;
+        let saveCounter = 0; // Counter for saves
 
         card.addEventListener('mouseover', () => {
             // Check if buttons are already added
@@ -62,27 +63,20 @@ function renderItems(items, containerSelector) {
                 // Set buttonsAdded flag to true
                 buttonsAdded = true;
             }
-            // Get all buttons with id 'save'
-            var saveButtons = document.querySelectorAll('button#save');
 
-            // Loop through each button and add the event listener
-            saveButtons.forEach(function (button) {
-                button.addEventListener('dblclick', function (e) {
-                    e.target.style.backgroundColor = 'green';
-                    e.target.innerText = 'Saved!';
-                });
+            // Get the save button
+            const saveButton = card.querySelector('#save');
+            // Add event listener to save button
+            saveButton.addEventListener('dblclick', function (e) {
+                e.target.style.backgroundColor = 'green';
+                e.target.innerText = 'Saved!';
+                // Increment save counter
+                saveCounter=+ 0;
+                const newSaveCounter= parseInt(saveCounter) +1
+                // Update save counter display
+                const saveCounterElement = card.querySelector('.save-counter');
+                saveCounterElement.textContent = `Saves: ${newSaveCounter}`;
             });
-
-            // Get all buttons with id 'save'
-            /*var editButtons = document.querySelectorAll('button#edit');
-
-            // Loop through each button and add the event listener
-            editButtons.forEach(function (button) {
-                button.addEventListener('dblclick', function () {
-                    const photo = card.createElement('input type="image"')
-                    card.appendChild(photo)
-                });
-            });*/
 
             // Get all buttons with id 'remove'
             var removeButtons = document.querySelectorAll('button#remove');
@@ -91,24 +85,9 @@ function renderItems(items, containerSelector) {
                     card.remove();
                 });
             });
-           /* var photoButtons = document.querySelectorAll('button#photo');
-
-// Loop through each button and add the event listener
-photoButtons.forEach(function (button) {
-    button.addEventListener('click', function (e) {
-        const photo = document.createElement('input');
-        photo.setAttribute('type', 'url');
-        card.appendChild(photo);
-    });
-});*/
-
-            
-
-
         });
     });
 }
-
 
 initialize();
 
@@ -118,7 +97,6 @@ function loadForm() {
     const form = document.querySelector('form');
     form.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
-
 
 document.getElementById('location-form').addEventListener('submit', async function (event) {
     event.preventDefault(); // Prevent default form submission
@@ -156,6 +134,8 @@ document.getElementById('location-form').addEventListener('submit', async functi
     });
 
 });
+
+
 
 
 
