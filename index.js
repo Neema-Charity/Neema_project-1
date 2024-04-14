@@ -84,7 +84,7 @@ function renderItems(items, containerSelector) {
                 });
             });*/
 
-            // Get all buttons with id 'save'
+            // Get all buttons with id 'remove'
             var removeButtons = document.querySelectorAll('button#remove');
             removeButtons.forEach((button) => {
                 button.addEventListener('click', (e) => {
