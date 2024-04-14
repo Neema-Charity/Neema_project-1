@@ -45,20 +45,8 @@ function renderItems(items, containerSelector) {
                         <button class="card" id="save">Double Click to save</button>
                     </div>
                     <div>
-                        <button class="card" id="photo">Add Photo</button>
-                    </div>
-                </div>
-                <div class="container">
-                    <div>
-                        <button class="card" id="edit">Edit</button>
-                    </div>
-                    <div>
-                         <button class="card" id="remove">Remove</button>
-                    </div>
-                </div>
-                <div>
-                    <button class="card" id="comment">Comment</button>
-                </div>
+                    <button class="card" id="remove">Remove</button>
+               </div>
                 `;
                 // Set buttonsAdded flag to true
                 buttonsAdded = true;
