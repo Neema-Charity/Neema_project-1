@@ -143,6 +143,18 @@
       "activity": "Busy during weekends",
       "restriction": "False",
       "image": "https://fastly.4sqi.net/img/general/600x600/7552754_xHRvth1KSbJ9gY4u1njjxQp6fUqlgEI1KU8IRzhRufQ.jpg"
+    },
+    {
+      "id": "b4af",
+      "name": "Tamarind",
+      "location": "Langata Road",
+      "aesthetic": "Restaurants",
+      "time": "",
+      "environment": "",
+      "parking": "",
+      "activity": "",
+      "restriction": "",
+      "image": "https://ik.imgkit.net/3vlqs5axxjf/external/http://media.iceportal.com/136034/photos/79428967_XL.jpg?tr=w-1200%2Cfo-auto"
     }
   ],
   "Galleries": [

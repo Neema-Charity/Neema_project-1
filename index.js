@@ -74,29 +74,35 @@ function renderItems(items, containerSelector) {
             });
 
             // Get all buttons with id 'save'
-            var editButtons = document.querySelectorAll('button#edit');
+            /*var editButtons = document.querySelectorAll('button#edit');
 
             // Loop through each button and add the event listener
             editButtons.forEach(function (button) {
                 button.addEventListener('dblclick', function () {
-                    card.createElement('input type="image"')
-                    card.appendChild.input.value
+                    const photo = card.createElement('input type="image"')
+                    card.appendChild(photo)
                 });
-            });
+            });*/
 
             // Get all buttons with id 'save'
-            var removeButtons = document.querySelectorAll('button#save');
-
-            // Loop through each button and add the event listener
-            saveButtons.forEach(function (button) {
-                button.addEventListener('dblclick', function (e) {
-                    e.target.style.backgroundColor = 'green';
-                    e.target.innerText = 'Saved!';
+            var removeButtons = document.querySelectorAll('button#remove');
+            removeButtons.forEach((button) => {
+                button.addEventListener('click', (e) => {
+                    card.remove();
                 });
             });
+           /* var photoButtons = document.querySelectorAll('button#photo');
 
+// Loop through each button and add the event listener
+photoButtons.forEach(function (button) {
+    button.addEventListener('click', function (e) {
+        const photo = document.createElement('input');
+        photo.setAttribute('type', 'url');
+        card.appendChild(photo);
+    });
+});*/
 
-
+            
 
 
         });
@@ -150,3 +156,6 @@ document.getElementById('location-form').addEventListener('submit', async functi
     });
 
 });
+
+
+
